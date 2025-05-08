@@ -1,6 +1,6 @@
 void main() {
   /// Variable [var] - es una palabra reservada
-  var nombre "Juanjo";
+  var nombre = "Juanjo";
 
 // [const] - constante
   const velocidadluz = "3000000";
