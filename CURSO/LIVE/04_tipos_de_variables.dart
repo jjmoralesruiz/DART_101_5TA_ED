@@ -77,6 +77,18 @@ void main() {
   /// 2. Usar el double.parse pero en lugar de guardar "10.1" ("Pepito").
   /// Qué sucede?
   /// 3. Como puedo resolver eso? -> Pista double.tryParse
+  final nombreCompleto = "Richar Cangui";
+  int miEdad = 29;
+  print("Mi nombre es $nombreCompleto y tengo $miEdad");
+  final miValor = "10.1";
+  final miValorNumerico = double.tryParse(nombreCompleto);
+  print(miValor);
+  print(miValorNumerico);
+  /// Como saber que tipo de dato es algo
+  /// .runtimeType
+  print(miValor.runtimeType);
+  print(miValorNumerico.runtimeType);
+
 
 
   // Boleanos 1 0 - true o false
@@ -154,7 +166,7 @@ void main() {
   // [1,2,3,4,5,6,7] -> 7
   // No usar el last 
 
-
-
+  /// Mapas Ejemplo práctico
+  /// Sucursales - Producto ofrece cada unoa
 
 }
